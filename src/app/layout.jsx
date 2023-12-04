@@ -1,6 +1,8 @@
 // import { Inter } from 'next/font/google'
 import './globals.css'
 import { GeistSans } from "geist/font/sans";
+import NavBar from './components/NavBar';
+import React from 'react';
 
 
 // const inter = Inter({ subsets: ['latin'] })
@@ -13,7 +15,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={GeistSans.className}>{children}</body>
+      <body className={GeistSans.className}>
+        <NavBar/>
+      {children}</body>
     </html>
   );
 }
