@@ -8,24 +8,10 @@ const NavBar = () => {
 
     return (
       <>
-        {/* <div className>
-          <div className=" top-0 left-0">
-            <a href="/">
-              <Image
-                src={logo}
-                alt="Logo"
-                width={75}
-                height={50}
-                priority
-                className="m-2 rounded-full"
-              />
-            </a>
-          </div>
-        </div> */}
         <div className="w-full h-20 bg-black-600 top-0">
           <div className="mx-auto px-4 h-full">
             <div className="hidden md:flex mt-8 justify-center items-center h-full">
-              <ul className="flex flex-column space-x-4 text-white text-5xl gap-x-8">
+              <ul className="flex flex-column space-x-4 text-white text-4xl gap-x-8">
                 <li className="">
                   <Link href="/">
                     {" "}
@@ -40,19 +26,19 @@ const NavBar = () => {
                   </Link>
                 </li>
                 <li className="mt-2 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0">
-                  <Link href="/">home</Link>
+                  <Link href="/">Home</Link>
                 </li>
                 <li className="mt-2 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0 ">
-                  <Link href="/about">about</Link>
+                  <Link href="/about">About</Link>
                 </li>
                 <li className="mt-2 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0 ">
-                  <Link href="/experience">experience</Link>
+                  <Link href="/experience">Officer Team</Link>
                 </li>
                 <li className="mt-2 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0 ">
-                  <Link href="/projects">projects</Link>
+                  <Link href="/projects">Client Teams</Link>
                 </li>
                 <li className="mt-2 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0 ">
-                  <Link href="/contact">contact</Link>
+                  <Link href="/contact">Social Media</Link>
                 </li>
               </ul>
             </div>
