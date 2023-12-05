@@ -25,19 +25,19 @@ const NavBar = () => {
                     />
                   </Link>
                 </li>
-                <li className="mt-2 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0">
+                <li className="mt-3 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0">
                   <Link href="/">Home</Link>
                 </li>
-                <li className="mt-2 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0 ">
+                <li className="mt-3 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0 ">
                   <Link href="/about">About</Link>
                 </li>
-                <li className="mt-2 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0 ">
+                <li className="mt-3 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0 ">
                   <Link href="/experience">Officer Team</Link>
                 </li>
-                <li className="mt-2 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0 ">
+                <li className="mt-3 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0 ">
                   <Link href="/projects">Client Teams</Link>
                 </li>
-                <li className="mt-2 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0 ">
+                <li className="mt-3 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0 ">
                   <Link href="/contact">Social Media</Link>
                 </li>
               </ul>
