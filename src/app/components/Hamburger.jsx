@@ -1,4 +1,8 @@
+"use client"
 import React, { useState } from "react";
+import Image from "next/image";
+import Link from "next/link"; 
+import logo from "../logo.png";
 
 const Hamburger = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +35,19 @@ const Hamburger = () => {
               : "hidden"
           }
         >
+          <li className="mt-3">
+            <Link href="/">
+              {" "}
+              <Image
+                src={logo}
+                alt="Logo"
+                width={75}
+                height={50}
+                priority
+                className="rounded-full"
+              />
+            </Link>
+          </li>
           <li className="py-6 text-4xl hover:scale-110 duration-300">
             <a href="/">home</a>
           </li>
