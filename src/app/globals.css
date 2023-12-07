@@ -25,3 +25,18 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.gridcont { 
+  display: grid; 
+  margin-top: 3rem;
+  gap: 20px; 
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(4, 1fr); /* 3 rows */
+}
+
+.grid-item {
+  border: 5px solid #ccc;
+  padding: 30px;
+  text-align: center;
+}
