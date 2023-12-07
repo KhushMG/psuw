@@ -9,9 +9,9 @@ export default function About() {
             <h1 className="flex flex-col items-center justify-center font-bold mt-20 mb-3 text-5xl">
               {"ProductSphere@UW"}
             </h1>
-            <div className="flex items-center text-lg text-center px-6">
-              {"Officer Team"}
-            </div>
+            <h2 className="flex flex-col items-center justify-center font-bold mb-3 text-4xl">
+              {"Meet the Team!"}
+            </h2>
           </div>
         </div>
       </div>

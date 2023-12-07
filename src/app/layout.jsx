@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <link rel="icon" href="/images/logo2.png" sizes="any" />
+      <link rel="icon" href="/images/favicon.ico" sizes="any" />
       <body className={GeistSans.className}>
         <NavBar />
         {children}
