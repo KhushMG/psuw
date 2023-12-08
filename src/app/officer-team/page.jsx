@@ -1,4 +1,6 @@
 "use client";
+import Image from "next/image";
+import logo1 from "../assets/1.png";
 
 export default function About() {
   return (
@@ -15,7 +17,13 @@ export default function About() {
           </div>
           {/* grid container */}
           <div class="gridcont">
-            <div className="grid-item">Item 1</div>
+            <div className="grid-item z-10">
+              <Image
+                src={logo1}
+                alt="Officer 1"
+                className="max-w-full max-h-full w-auto z-0"
+              />
+            </div>
             <div className="grid-item">Item 2</div>
             <div className="grid-item">Item 3</div>
             <div className="grid-item">Item 4</div>
