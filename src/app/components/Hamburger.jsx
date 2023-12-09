@@ -55,13 +55,13 @@ const Hamburger = () => {
             <a href="/about">About</a>
           </li>
           <li className="py-6 text-4xl hover:scale-110 duration-300">
-            <a href="/experience">Officer Team</a>
+            <a href="/officer-team">Officer Team</a>
           </li>
           <li className="py-6 text-4xl hover:scale-110 duration-300">
-            <a href="/projects">Client Teams</a>
+            <a href="/client-teams">Client Teams</a>
           </li>
           <li className="py-6 text-4xl hover:scale-110 duration-300">
-            <a href="/projects">Social Media</a>
+            <a href="/social-media">Social Media</a>
           </li>
         </ul>
       </button>
