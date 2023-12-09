@@ -26,16 +26,21 @@ export default function Home() {
             "We're a UW, student-led organization committed to product management, marketing, and design. We are open to all majors!"
           }
         />
+        <TextBlocks
+          title={"Our Two Programs:"}
+        />
         <div>
-          <p className="font-semibold text-xl lg:text-3xl underline text-left">
+          <p className="font-semibold text-xl lg:text-2xl underline text-left">
             {"Fellowship "}
           </p>
           <ul className="left-12">
             <li className="mb-1 text-left lg:text-xl list-disc ml-4">
-             {" New to Product Management, Marketing, and Design?"}
+              {" New to Product Management, Marketing, and Design?"}
               <ul className="absolute list-disc ml-4">
                 <li>
-                  We offer Mentorship with a group of fellows on PM topics <br/>from our training materials and mentors:
+                  We offer Mentorship with a group of fellows on PM topics{" "}
+                  <br />
+                  from our training materials and mentors:
                 </li>
                 <ul className="absolute list-disc ml-6">
                   <li>{"Interview processes"}</li>
@@ -48,7 +53,7 @@ export default function Home() {
           </ul>
         </div>
         <div className="mt-[12rem]">
-          <p className="font-semibold text-xl lg:text-3xl underline text-left">
+          <p className="font-semibold text-xl lg:text-2xl underline text-left">
             {"Client "}
           </p>
           <ul className="left-12">
@@ -56,12 +61,22 @@ export default function Home() {
               {"Post Fellowship"}
               <ul className="absolute list-disc ml-4">
                 <li>
-                  {"Apply your learnings as a product associate for a client company"}
+                  {
+                    "Apply your learnings as a product associate for a client company"
+                  }
                 </li>
                 <ul className="absolute list-disc ml-6">
-                  <li>Work under an experienced PM and <br/> student advisor in a team of 4-6</li>
-                  <li>Devise and deliver thoughtful <br/> services/products for companies </li>
-                  <li> Conduct user research  </li>
+                  <li>
+                    {" "}
+                    Work under an experienced PM and <br /> student advisor in a
+                    team of 4-6
+                  </li>
+                  <li>
+                    {" "}
+                    Devise and deliver thoughtful <br /> services/products for
+                    companies{" "}
+                  </li>
+                  <li> Conduct user research </li>
                 </ul>
               </ul>
             </li>

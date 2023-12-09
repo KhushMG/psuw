@@ -11,7 +11,7 @@ const NavBar = () => {
           <div className="mx-auto px-4 h-full">
             <div className="hidden md:flex mt-8 justify-center items-center h-full">
               <ul className="flex flex-column space-x-4 text-white text-4xl gap-x-8">
-                <li className="mt-6">
+                <li className="mt-4">
                   <Link href="/">
                     {" "}
                     <Image
