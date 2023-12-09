@@ -11,7 +11,7 @@ const NavBar = () => {
           <div className="mx-auto px-4 h-full">
             <div className="hidden md:flex mt-8 justify-center items-center h-full">
               <ul className="flex flex-column space-x-4 text-white text-4xl gap-x-8">
-                <li className="mt-3">
+                <li className="mt-6">
                   <Link href="/">
                     {" "}
                     <Image
@@ -19,7 +19,7 @@ const NavBar = () => {
                       alt="Logo"
                       width={75}
                       height={50}
-                      className="rounded-full"
+                      className="flex rounded-full"
                     />
                   </Link>
                 </li>
@@ -30,10 +30,10 @@ const NavBar = () => {
                   <Link href="/about">About</Link>
                 </li>
                 <li className="mt-7 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0 ">
-                  <Link href="/officer-team">Officer Team</Link>
+                  <Link href="/officer-team">Officers</Link>
                 </li>
                 <li className="mt-7 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0 ">
-                  <Link href="/client-teams">Client Teams</Link>
+                  <Link href="/client-teams">Clients</Link>
                 </li>
                 <li className="mt-7 hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-purple-700 before:absolute before:left-0 before:bottom-0 ">
                   <Link href="/social-media">Social Media</Link>

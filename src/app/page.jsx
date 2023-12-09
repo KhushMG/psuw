@@ -29,7 +29,6 @@ export default function Home() {
         <div>
           <p className="font-semibold text-xl lg:text-3xl underline text-left">
             {"Fellowship "}
-            
           </p>
           <ul className="left-12">
             <li className="mb-1 text-left lg:text-xl list-disc ml-4">
@@ -62,7 +61,7 @@ export default function Home() {
                 <ul className="absolute list-disc ml-6">
                   <li>Work under an experienced PM and <br/> student advisor in a team of 4-6</li>
                   <li>Devise and deliver thoughtful <br/> services/products for companies </li>
-                  <li>{"Conduct user research "} </li>
+                  <li> Conduct user research  </li>
                 </ul>
               </ul>
             </li>
