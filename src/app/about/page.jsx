@@ -1,6 +1,7 @@
 "use client";
 import logo from "../logo.png";
 import Image from "next/image";
+import TextBlocks from "../components/TextBlocks";
 
 export default function About() {
 
@@ -26,49 +27,40 @@ export default function About() {
                 {"About Us"}
               </h1>
               <div className="items-center text-lg text-center px-6">
-                <p className="font-semibold text-xl lg:text-3xl underline text-left">
-                  {" "}
-                  Our Mission{" "}
-                </p>
-                <p className="mb-4 text-left lg:text-xl">
-                  {" "}
-                  To give UW students real-world opportunities and experiences{" "}
-                  <br />
-                  within tech and business sectors.
-                </p>
+                
+                <TextBlocks
+                  title={"Our Mission"}
+                  body={
+                    "To give UW students real-world opportunities and experiences within tech and business sectors."
+                  }
+                />
 
-                <p className="font-semibold text-xl lg:text-3xl underline text-left">
-                  {" "}
-                  Fellowship{" "}
-                </p>
-                <p className="mb-4 text-left lg:text-xl">
-                  Exclusive training and support from mentors and fellows.{" "}
-                </p>
+                <TextBlocks
+                  title={"Fellowship"}
+                  body={
+                    "Exclusive training and support from mentors and fellows."
+                  }
+                />
 
-                <p className="font-semibold text-xl lg:text-3xl underline text-left">
-                  {" "}
-                  Client Teams{" "}
-                </p>
-                <p className="mb-4 text-left lg:text-xl">
-                  Tackle projects including but not limited to marketing,
-                  business strategy, design, development, and data science.{" "}
-                </p>
+                <TextBlocks
+                  title={"Client Teams"}
+                  body={
+                    "Tackle projects including but not limited to marketing, business strategy, design, development, and data science."
+                  }
+                />
 
-                <p className="font-semibold text-xl lg:text-3xl underline text-left ">
-                  {" "}
-                  Our values of Diversity and Community{" "}
-                </p>
-                <p className="mb-8 text-left lg:text-xl">
-                  We believe the best solutions derive from diverse ideas,
-                  majors, and individuals.{" "}
-                </p>
-                <p className="font-semibold text-xl lg:text-3xl underline text-left ">
-                  {" "}
-                  Interested? {" "}
-                </p>
-                <p className="mb-4 text-left lg:text-xl">
-                  Keep an eye out for our Fellowship application form!{" "}
-                </p>
+                <TextBlocks
+                  title={"Our Values: Diversity and Community"}
+                  body={
+                    "We believe the best solutions derive from diverse ideas, majors, and individuals."
+                  }
+                />
+
+                <TextBlocks
+                  title={"Interested?"}
+                  body={"Keep an eye out for our Fellowship application form!"}
+                />
+
               </div>
             </div>
           </div>
