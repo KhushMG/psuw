@@ -7,7 +7,7 @@ import Hamburger from "./Hamburger";
 const NavBar = () => { 
     return (
       <>
-        <div className="w-full h-20 bg-black-600 top-0 mt-4">
+        <div className="flex flex-col w-full h-20 bg-black-600 top-0 mt-4">
           <div className="mx-auto px-4 h-full">
             <div className="hidden md:flex mt-8 justify-center items-center h-full">
               <ul className="flex flex-column space-x-4 text-white text-4xl gap-x-8">
@@ -19,7 +19,6 @@ const NavBar = () => {
                       alt="Logo"
                       width={75}
                       height={50}
-                      priority
                       className="rounded-full"
                     />
                   </Link>

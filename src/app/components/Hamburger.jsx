@@ -20,7 +20,7 @@ const Hamburger = () => {
           viewBox="0 0 24 24"
           strokeWidth="1.5"
           stroke="currentColor"
-          className="w-10 h-10"
+          className="w-10 h-10 absolute top-[1rem] right-[2rem]"
         >
           <path
             strokeLinecap="round"
@@ -49,16 +49,19 @@ const Hamburger = () => {
             </Link>
           </li>
           <li className="py-6 text-4xl hover:scale-110 duration-300">
-            <a href="/">home</a>
+            <a href="/">Home</a>
           </li>
           <li className="py-6 text-4xl hover:scale-110 duration-300">
-            <a href="/about">about</a>
+            <a href="/about">About</a>
           </li>
           <li className="py-6 text-4xl hover:scale-110 duration-300">
-            <a href="/experience">experience</a>
+            <a href="/experience">Officer Team</a>
           </li>
           <li className="py-6 text-4xl hover:scale-110 duration-300">
-            <a href="/projects">projects</a>
+            <a href="/projects">Client Teams</a>
+          </li>
+          <li className="py-6 text-4xl hover:scale-110 duration-300">
+            <a href="/projects">Social Media</a>
           </li>
         </ul>
       </button>
