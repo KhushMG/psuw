@@ -24,9 +24,10 @@ export default function About() {
           </div>
           {/* Officer Cards. Props: Officer image, officer name. Reference OfficerCard.jsx for stylnig */}
           <div className="gridcont flex flex-col mt-10">
+            
             <OfficerCard image={team1} name={"Marie Kang"} />
 
-            {/* dont touch this one */}
+            {/* Not using OfficerCard as special adjustments needed for this card. */}
             <div className="grid-item bg-purple-300/70 rounded-md p-[2rem] shadow-md">
               {/* <div className="hover:opacity-0 transition duration-150 ease-in-out"> */}
               <div className="image-border flex justify-center p-[2rem] border-[0.3rem] border-white rounded-md">
@@ -54,6 +55,7 @@ export default function About() {
             <OfficerCard image={team6} name={"Sean Yuan"} />
 
             <OfficerCard image={team7} name={"Madelyn Lee"} />
+
           </div>
         </div>
       </div>
