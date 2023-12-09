@@ -11,7 +11,6 @@ export default function Home() {
             alt="Logo"
             width={100}
             height={50}
-            priority
             className="m-5 rounded-full"
           />
           <h1 className="flex items-center justify-center text-3xl font-bold">

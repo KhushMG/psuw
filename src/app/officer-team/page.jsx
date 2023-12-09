@@ -21,98 +21,125 @@ export default function About() {
               {"Meet the Team!"}
             </h2>
           </div>
-          {/* grid container */}
-          <div className="gridcont ">
-            <div className="grid-item relative mb-5 rounded-md bg-purple-800">
-              <Image
-                src={team1}
-                alt="Officer 1"
-                className="fill-image md:mb-2"
-              />
-              <div className="absolute md:top-[283px] bottom-[-1px] sm:h-[30px] md:h-[50px] w-full bg-purple-800 rounded-sm">
-                <h2 className="font-semibold sm:mb-[40px] md:text-2xl">
+          <div className="gridcont flex flex-col mt-10">
+            <div className="grid-item bg-purple-300/70 rounded-md p-[2rem] shadow-md">
+              {/* <div className="hover:opacity-0 transition duration-150 ease-in-out"> */}
+              <div className="image-border flex justify-center p-[2rem] border-[0.3rem] border-white rounded-md">
+                <Image
+                  src={team1}
+                  alt="Officer 1"
+                  className="fill-image rounded-md"
+                />
+              </div>
+              <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-5">
+                <h2 className="spec-font font-semibold md:text-2xl">
                   {" "}
-                  Marie Kang{" "}
+                  Marie Kang
                 </h2>
               </div>
+              {/* </div> */}
             </div>
-            <div className="grid-item relative mb-5 rounded-md bg-purple-800">
-              <Image
-                src={team2}
-                alt="Officer 2"
-                className="fill-image md:mb-2"
-              />
-              <div className="absolute md:top-[283px] bottom-[-1px] sm:h-[30px] md:h-[50px] w-full bg-purple-800 rounded-sm">
-                <h2 className="spec-font font-semibold sm:mb-[40px] md:text-2xl">
+            <div className="grid-item bg-purple-300/70 rounded-md p-[2rem] shadow-md">
+              {/* <div className="hover:opacity-0 transition duration-150 ease-in-out"> */}
+              <div className="image-border flex justify-center p-[2rem] border-[0.3rem] border-white rounded-md">
+                <Image
+                  src={team2}
+                  alt="Officer 2"
+                  className="fill-image rounded-md"
+                />
+              </div>
+              <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-6 lg:mt-7">
+                <h2 className="spec-font font-semibold md:text-2xl">
                   {" "}
-                  Non Pronanun{" "}
+                  Non Pronanun
                 </h2>
               </div>
+              {/* </div> */}
             </div>
-            <div className="grid-item relative mb-5 rounded-md bg-purple-800">
-              <Image
-                src={team3}
-                alt="Officer 3"
-                className="fill-image md:mb-2"
-              />
-              <div className="absolute md:top-[283px] bottom-[-1px] sm:h-[30px] md:h-[50px] w-full bg-purple-800 rounded-sm">
-                <h2 className="font-semibold sm:mb-[40px] md:text-2xl">
+            <div className="grid-item bg-purple-300/70 rounded-md p-[2rem] shadow-md">
+              {/* <div className="hover:opacity-0 transition duration-150 ease-in-out"> */}
+              <div className="image-border flex justify-center p-[2rem] border-[0.3rem] border-white rounded-md">
+                <Image
+                  src={team3}
+                  alt="Officer 3"
+                  className="fill-image rounded-md"
+                />
+              </div>
+              <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-5">
+                <h2 className="spec-font font-semibold md:text-2xl">
                   {" "}
-                  Thomas Lee{" "}
+                  Thomas Lee
                 </h2>
               </div>
+              {/* </div> */}
             </div>
-            <div className="grid-item relative mb-5 rounded-md bg-purple-800">
-              <Image
-                src={team4}
-                alt="Officer 4"
-                className="fill-image md:mb-2"
-              />
-              <div className="absolute md:top-[283px] bottom-[-1px] sm:h-[30px] md:h-[50px] w-full bg-purple-800 rounded-sm">
-                <h2 className="font-semibold sm:mb-[12px] md:text-2xl">
+            <div className="grid-item bg-purple-300/70 rounded-md p-[2rem] shadow-md">
+              {/* <div className="hover:opacity-0 transition duration-150 ease-in-out"> */}
+              <div className="image-border flex justify-center p-[2rem] border-[0.3rem] border-white rounded-md">
+                <Image
+                  src={team4}
+                  alt="Officer 4"
+                  className="fill-image rounded-md"
+                />
+              </div>
+              <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-7">
+                <h2 className="spec-font font-semibold md:text-2xl">
                   {" "}
-                  Chloe Chung{" "}
+                  Chloe Chung
                 </h2>
               </div>
+              {/* </div> */}
             </div>
-            <div className="grid-item relative mb-5 rounded-md bg-purple-800/80">
-              <Image
-                src={team5}
-                alt="Officer 5"
-                className="fill-image md:mb-2"
-              />
-              <div className="absolute md:top-[283px] bottom-[-1px] sm:h-[30px] md:h-[50px] w-full bg-purple-800 rounded-sm">
-                <h2 className="font-semibold sm:mb-[12px] md:text-2xl">
+            <div className="grid-item bg-purple-300/70 rounded-md p-[2rem] shadow-md">
+              {/* <div className="hover:opacity-0 transition duration-150 ease-in-out"> */}
+              <div className="image-border flex justify-center p-[2rem] border-[0.3rem] border-white rounded-md">
+                <Image
+                  src={team5}
+                  alt="Officer 5"
+                  className="fill-image rounded-md"
+                />
+              </div>
+              <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-7">
+                <h2 className="spec-font font-semibold md:text-2xl">
                   {" "}
-                  Jasper Gan{" "}
+                  Jasper Gan
                 </h2>
               </div>
+              {/* </div> */}
             </div>
-            <div className="grid-item relative mb-5 rounded-md bg-purple-800">
-              <Image
-                src={team6}
-                alt="Officer 6"
-                className="fill-image md:mb-2"
-              />
-              <div className="absolute md:top-[283px] bottom-[-1px] sm:h-[30px] md:h-[50px] w-full bg-purple-800 rounded-sm">
-                <h2 className="font-semibold sm:mb-[12px] md:text-2xl">
+            <div className="grid-item bg-purple-300/70 rounded-md p-[2rem] shadow-md">
+              {/* <div className="hover:opacity-0 transition duration-150 ease-in-out"> */}
+              <div className="image-border flex justify-center p-[2rem] border-[0.3rem] border-white rounded-md">
+                <Image
+                  src={team6}
+                  alt="Officer 6"
+                  className="fill-image rounded-md"
+                />
+              </div>
+              <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-7">
+                <h2 className="spec-font font-semibold md:text-2xl">
                   {" "}
-                  Sean Yuan{" "}
+                  Sean Yuan
                 </h2>
               </div>
+              {/* </div> */}
             </div>
-            <div className="grid-item relative mb-5 rounded-md bg-purple-800">
-              <Image
-                src={team7}
-                alt="Officer 7"
-                className="fill-image md:mb-2 rounded-sm"
-              />
-              <div className="absolute md:top-[283px] bottom-[-1px] sm:h-[30px] md:h-[50px] w-full bg-purple-800 rounded-sm">
-                <h2 className="font-semibold sm:mb-[12px] md:text-2xl">
+            <div className="grid-item bg-purple-300/70 rounded-md p-[2rem] shadow-md">
+              {/* <div className="hover:opacity-0 transition duration-150 ease-in-out"> */}
+              <div className="image-border flex justify-center p-[2rem] border-[0.3rem] border-white rounded-md">
+                <Image
+                  src={team7}
+                  alt="Officer 7"
+                  className="fill-image rounded-md"
+                />
+              </div>
+              <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-6">
+                <h2 className="spec-font font-semibold md:text-2xl">
                   {" "}
-                  Madelyn Lee{" "}
+                  Madelyn Lee
                 </h2>
               </div>
+              {/* </div> */}
             </div>
           </div>
         </div>
