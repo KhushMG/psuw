@@ -5,8 +5,8 @@ import TextBlocks from './components/TextBlocks';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
-      <div className="absolute flex items-center justify-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-purple-700 before:dark:opacity-10 after:dark:from-purple-900 after:dark:via-magenta after:dark:opacity-100 before:lg:h-[360px] z-[-1]">
-        <div className="flex items-center justify-center mt-20 px-2">
+      <div className="absolute mt-5 mb-2 flex items-center justify-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-purple-700 before:dark:opacity-10 after:dark:from-purple-900 after:dark:via-magenta after:dark:opacity-100 before:lg:h-[360px] z-[-1]">
+        <div className="flex items-center justify-center mt-20 lg:mt-24 px-2">
           <Image
             src={logo}
             alt="Logo"
