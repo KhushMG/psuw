@@ -1,6 +1,6 @@
-import Image from 'next/image'
+import Image from "next/image";
 import logo from "./logo.png";
-import TextBlocks from './components/TextBlocks';
+import TextBlocks from "./components/TextBlocks";
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
         </p>
         <p className="text-xl mb-4">
           We&apos;re a UW, student-led organization committed to product
-          management, <br/> marketing, and design. We are open to all majors!
+          management, <br /> marketing, and design. We are open to all majors!
         </p>
         <TextBlocks title={"Our Two Programs:"} />
         <div>
@@ -33,9 +33,9 @@ export default function Home() {
             {"Fellowship "}
           </p>
           <ul className="left-12">
-            <li className="mb-1 text-left lg:text-xl list-disc ml-4">
+            <li className="mb-1 text-left lg:text-xl list-disc ml-6">
               {" New to Product Management, Marketing, and Design?"}
-              <ul className="absolute list-disc ml-4">
+              <ul className="absolute list-disc ml-6">
                 <li>
                   We offer Mentorship with a group of fellows on PM topics{" "}
                   <br />
@@ -56,7 +56,7 @@ export default function Home() {
             {"Client "}
           </p>
           <ul className="left-12">
-            <li className="mb-1 text-left lg:text-xl list-disc ml-4">
+            <li className="mb-1 text-left lg:text-xl list-disc ml-6">
               {"Post Fellowship"}
               <ul className="absolute list-disc ml-4">
                 <li>
@@ -81,6 +81,54 @@ export default function Home() {
             </li>
           </ul>
         </div>
+          <div className="flex mt-[12rem]">
+            <div>
+                <TextBlocks title={"General Events: "}/> 
+              <div className="flex flex-col lg:flex-row">
+                <div className="lg:mr-[12rem]">
+                  <p className="font-semibold text-xl lg:text-2xl text-left">
+                    {"Workshops "}
+                  </p>
+                  <ul className="text-[16px] lg:text-[20px] list-disc ml-6 mb-4">
+                    <li>{"Resume Workshops"}</li>
+                    <li>{"Design Workshops"}</li>
+                    <li>{"Case Studies"}</li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="font-semibold text-xl lg:text-2xl text-left">
+                    {"Speaker Panels "}
+                  </p>
+                  <ul className="lg:text-[20px] list-disc ml-6 mb-4">
+                    <li>{"Q&A Opportunities"}</li>
+                    <li>{"Day-to-day of a PM "}</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="flex flex-col lg:flex-row">
+                <div className="lg:mr-[12rem]">
+                  <p className="font-semibold text-xl lg:text-2xl text-left">
+                    {"Mock Interviews "}
+                  </p>
+                  <ul className="lg:text-[20px] list-disc ml-7 mb-4">
+                    <li>
+                      Practice interviews <br /> with our mentors
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="font-semibold text-xl lg:text-2xl text-left">
+                    {"Socials  "}
+                  </p>
+                  <ul className="lg:text-[20px] list-disc ml-6 mb-4">
+                    <li>{"Connect with like-minded students"}</li>
+                    <li>{"Network with Professionals "}</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
     </main>
   );
