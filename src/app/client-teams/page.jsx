@@ -30,7 +30,7 @@ export default function About() {
           <ul className="list-disc text ml-6 mb-4">
             <li>{"The world's #1 referral platform "}</li>
             <li>{"UW alum-founded"}</li>
-            <li>{"AI resume feedback and builer tools"}</li>
+            <li>{"AI resume feedback and builder tools"}</li>
           </ul>
         </div>
         <p className="text-2xl"> Team: </p>
