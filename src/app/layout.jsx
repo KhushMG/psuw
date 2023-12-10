@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <link rel="icon" href="/images/favicon.ico" sizes="any" />
       <body className={GeistSans.className}>
-        <NavBar />
+        <NavBar className="z-10"/>
         {children}
       </body>
     </html>
