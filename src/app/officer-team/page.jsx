@@ -24,7 +24,6 @@ export default function About() {
           </div>
           {/* Officer Cards. Props: Officer image, officer name. Reference OfficerCard.jsx for stylnig */}
           <div className="gridcont flex flex-col mt-10">
-            
             <OfficerCard image={team1} name={"Marie Kang"} />
 
             {/* Not using OfficerCard as special adjustments needed for this card. */}
@@ -37,7 +36,7 @@ export default function About() {
                   className="fill-image rounded-md"
                 />
               </div>
-              <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-6 lg:mt-10">
+              <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-[1.9rem] lg:mt-[2.7rem] ">
                 <h2 className="spec-font font-semibold md:text-2xl">
                   {" "}
                   Non Pronanun
@@ -55,7 +54,6 @@ export default function About() {
             <OfficerCard image={team6} name={"Sean Yuan"} />
 
             <OfficerCard image={team7} name={"Madelyn Lee"} />
-
           </div>
         </div>
       </div>
