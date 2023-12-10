@@ -15,7 +15,7 @@ export default function About() {
             alt="Logo"
             width={100}
             height={50}
-            className="mt-8 rounded-full"
+            className="mt-[2rem] lg:mt-[7rem] rounded-full"
           />
           <h1 className="flex flex-col items-center justify-center font-bold mt-8 mb-8 text-3xl lg:text-5xl px-2">
             {"ProductSphere@UW"}
@@ -31,14 +31,14 @@ export default function About() {
                 alt="Logo"
                 width={60}
                 height={60}
-                className="mt-4 lg:mt-[0.75rem] mb-7 mr-4"
+                className="mt-4 lg:mt-[0.75rem] mb-6 mr-4"
               />
               <p className="mb-4 text-left lg:text-2xl">
                 <strong>Instagram: </strong> <br /> @productsphereuw
               </p>
             </div>
 
-            <div className="flex items-center">
+            <div className="flex items-center ">
               <Image
                 src={gmail_logo}
                 alt="Gmail Logo"
@@ -46,8 +46,8 @@ export default function About() {
                 height={60}
                 className="mt-4 lg:mt-[1rem] mb-7 mr-4"
               />
-              <p className="mb-4 text-left lg:text-2xl">
-                <strong>Email: </strong> <br /> productsphereuw@gmail.com
+              <p className="mb-4 text-left text-lg lg:text-2xl">
+                <strong>Email: </strong> <br/> productsphereuw@gmail.com
               </p>
             </div>
           </div>
