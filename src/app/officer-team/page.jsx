@@ -36,7 +36,7 @@ export default function About() {
                   className="fill-image rounded-md"
                 />
               </div>
-              <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-[1.9rem] lg:mt-[2.7rem] ">
+              <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-[1.9rem] lg:mt-[4.3rem] ">
                 <h2 className="spec-font font-semibold md:text-2xl">
                   {" "}
                   Non Pronanun
