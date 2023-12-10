@@ -15,10 +15,10 @@ export default function About() {
       <div>
         <div className="flex flex-col items-center justify-center">
           <div>
-            <h1 className="flex flex-col items-center justify-center font-bold mt-20 mb-3 text-4xl">
+            <h1 className="flex flex-col items-center justify-center font-bold mt-20 mb-3 text-4xl lg:text-5xl lg:mt-[7rem]">
               {"ProductSphere@UW"}
             </h1>
-            <h2 className="flex flex-col items-center justify-center font-bold text-3xl">
+            <h2 className="flex flex-col items-center justify-center font-bold text-3xl lg:text-4xl">
               {"Meet the Team!"}
             </h2>
           </div>
@@ -36,7 +36,7 @@ export default function About() {
                   className="fill-image rounded-md"
                 />
               </div>
-              <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-[1.9rem] lg:mt-[4.3rem] ">
+              <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-[2.17rem] lg:mt-[4.3rem] ">
                 <h2 className="spec-font font-semibold md:text-2xl">
                   {" "}
                   Non Pronanun
