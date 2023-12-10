@@ -20,17 +20,16 @@ export default function Home() {
         </div>
       </div>
       <div className="items-center px-6 mt-[17rem]">
-        <TextBlocks
-          title={"Welcome to ProductSphere!"}
-          body={
-            "We're a UW, student-led organization committed to product management, marketing, and design. We are open to all majors!"
-          }
-        />
-        <TextBlocks
-          title={"Our Two Programs:"}
-        />
+        <p className="font-semibold text-xl lg:text-4xl text-left">
+          {"Welcome to ProductSphere! "}
+        </p>
+        <p className="text-xl mb-4">
+          We&apos;re a UW, student-led organization committed to product
+          management, <br/> marketing, and design. We are open to all majors!
+        </p>
+        <TextBlocks title={"Our Two Programs:"} />
         <div>
-          <p className="font-semibold text-xl lg:text-2xl underline text-left">
+          <p className="font-semibold text-xl lg:text-2xl text-left">
             {"Fellowship "}
           </p>
           <ul className="left-12">
@@ -53,7 +52,7 @@ export default function Home() {
           </ul>
         </div>
         <div className="mt-[12rem]">
-          <p className="font-semibold text-xl lg:text-2xl underline text-left">
+          <p className="font-semibold text-xl lg:text-2xl text-left">
             {"Client "}
           </p>
           <ul className="left-12">

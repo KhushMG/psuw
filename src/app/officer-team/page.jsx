@@ -29,14 +29,14 @@ export default function About() {
             {/* Not using OfficerCard as special adjustments needed for this card. */}
             <div className="grid-item bg-purple-300/70 rounded-md p-[2rem] shadow-md">
               {/* <div className="hover:opacity-0 transition duration-150 ease-in-out"> */}
-              <div className="image-border flex justify-center p-[2rem] border-[0.3rem] border-white rounded-md">
+              <div className="image-border flex justify-center p-[1rem] border-[0.3rem] border-white rounded-md">
                 <Image
                   src={team2}
                   alt="Officer 2"
                   className="fill-image rounded-md"
                 />
               </div>
-              <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-[2.17rem] lg:mt-[4.3rem] ">
+              <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-[2.17rem] lg:mt-[3.6rem] ">
                 <h2 className="spec-font font-semibold md:text-2xl">
                   {" "}
                   Non Pronanun
