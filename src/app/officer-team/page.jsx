@@ -22,7 +22,7 @@ export default function About() {
               {"Meet the Team!"}
             </h2>
           </div>
-          {/* Officer Cards. Props: Officer image, officer name. Reference OfficerCard.jsx for stylnig */}
+          {/* Officer Cards. Props: Officer image, officer name. Reference OfficerCard.jsx for styling */}
           <div className="gridcont flex flex-col mt-10">
             <OfficerCard image={team1} name={"Marie Kang"} />
 
