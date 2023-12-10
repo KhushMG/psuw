@@ -28,8 +28,14 @@ export default function About() {
         </div>
         <div className="flex items-center">
           <ul className="list-disc text ml-6 mb-4">
+            <li>
+              {"UW alum-founded"} {"\u{1F49C}"}
+            </li>
             <li>{"The world's #1 referral platform "}</li>
-            <li>{"UW alum-founded"}</li>
+            <li>
+              {"100,000 referrals connected and"} <br />{" "}
+              {"over 300,000+ referral requests "}
+            </li>
             <li>{"AI resume feedback and builder tools"}</li>
           </ul>
         </div>
