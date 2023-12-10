@@ -20,13 +20,29 @@ export default function Home() {
         </div>
       </div>
       <div className="items-center px-6 mt-[17rem]">
-        <p className="font-semibold text-xl lg:text-4xl text-left">
-          {"Welcome to ProductSphere! "}
-        </p>
-        <p className="text-xl mb-4">
-          We&apos;re a UW, student-led organization committed to product
-          management, <br /> marketing, and design. We are open to all majors!
-        </p>
+        <div>
+          {" "}
+          <p className="font-semibold text-xl lg:text-4xl text-left mb-2">
+            {"Welcome to ProductSphere! "}
+          </p>
+          <p className="text-xl mb-2">
+            We&apos;re a UW, student-led organization committed to product
+            management, <br /> marketing, and design. We are open to all majors!
+          </p>
+          <p className="text-xl mb-2">
+            {" "}
+            We&apos;re looking for committed individuals who are 
+             excited to <br/> learn more about this industry.
+          </p>
+          <p className="text-xl mb-4">
+            {" "}
+            No prior professional experience is required! <br/>
+            Apply for our Fellowship program or come join us for <br/>
+            our general events, open to everyone!
+          </p>
+        </div>
+        <div></div>
+
         <TextBlocks title={"Our Two Programs:"} />
         <div>
           <p className="font-semibold text-xl lg:text-2xl text-left">
@@ -81,54 +97,54 @@ export default function Home() {
             </li>
           </ul>
         </div>
-          <div className="flex mt-[12rem]">
-            <div>
-                <TextBlocks title={"General Events: "}/> 
-              <div className="flex flex-col lg:flex-row">
-                <div className="lg:mr-[12rem]">
-                  <p className="font-semibold text-xl lg:text-2xl text-left">
-                    {"Workshops "}
-                  </p>
-                  <ul className="text-[16px] lg:text-[20px] list-disc ml-6 mb-4">
-                    <li>{"Resume Workshops"}</li>
-                    <li>{"Design Workshops"}</li>
-                    <li>{"Case Studies"}</li>
-                  </ul>
-                </div>
-                <div>
-                  <p className="font-semibold text-xl lg:text-2xl text-left">
-                    {"Speaker Panels "}
-                  </p>
-                  <ul className="lg:text-[20px] list-disc ml-6 mb-4">
-                    <li>{"Q&A Opportunities"}</li>
-                    <li>{"Day-to-day of a PM "}</li>
-                  </ul>
-                </div>
+        <div className="flex mt-[12rem]">
+          <div>
+            <TextBlocks title={"General Events: "} />
+            <div className="flex flex-col lg:flex-row">
+              <div className="lg:mr-[12rem]">
+                <p className="font-semibold text-xl lg:text-2xl text-left">
+                  {"Workshops "}
+                </p>
+                <ul className="text-[16px] lg:text-[20px] list-disc ml-6 mb-4">
+                  <li>{"Resume Workshops"}</li>
+                  <li>{"Design Workshops"}</li>
+                  <li>{"Case Studies"}</li>
+                </ul>
               </div>
+              <div>
+                <p className="font-semibold text-xl lg:text-2xl text-left">
+                  {"Speaker Panels "}
+                </p>
+                <ul className="lg:text-[20px] list-disc ml-6 mb-4">
+                  <li>{"Q&A Opportunities"}</li>
+                  <li>{"Day-to-day of a PM "}</li>
+                </ul>
+              </div>
+            </div>
 
-              <div className="flex flex-col lg:flex-row">
-                <div className="lg:mr-[12rem]">
-                  <p className="font-semibold text-xl lg:text-2xl text-left">
-                    {"Mock Interviews "}
-                  </p>
-                  <ul className="lg:text-[20px] list-disc ml-7 mb-4">
-                    <li>
-                      Practice interviews <br /> with our mentors
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <p className="font-semibold text-xl lg:text-2xl text-left">
-                    {"Socials  "}
-                  </p>
-                  <ul className="lg:text-[20px] list-disc ml-6 mb-4">
-                    <li>{"Connect with like-minded students"}</li>
-                    <li>{"Network with Professionals "}</li>
-                  </ul>
-                </div>
+            <div className="flex flex-col lg:flex-row">
+              <div className="lg:mr-[12rem]">
+                <p className="font-semibold text-xl lg:text-2xl text-left">
+                  {"Mock Interviews "}
+                </p>
+                <ul className="lg:text-[20px] list-disc ml-7 mb-4">
+                  <li>
+                    Practice interviews <br /> with our mentors
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <p className="font-semibold text-xl lg:text-2xl text-left">
+                  {"Socials  "}
+                </p>
+                <ul className="lg:text-[20px] list-disc ml-6 mb-4">
+                  <li>{"Connect with like-minded students"}</li>
+                  <li>{"Network with Professionals "}</li>
+                </ul>
               </div>
             </div>
           </div>
+        </div>
       </div>
     </main>
   );
