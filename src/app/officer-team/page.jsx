@@ -37,7 +37,7 @@ export default function About() {
                 />
               </div>
               <div className="under-image-border flex justify-center items-center py-[1rem] border-[0.3rem] border-white rounded-md mt-[2.17rem] lg:mt-[3.6rem] ">
-                <h2 className="spec-font font-semibold md:text-2xl">
+                <h2 className="spec-font font-semibold md:text-2xl px-2">
                   {" "}
                   Non Pronanun
                 </h2>
