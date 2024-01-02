@@ -20,7 +20,7 @@ const Hamburger = () => {
           viewBox="0 0 24 24"
           strokeWidth="1.5"
           stroke="currentColor"
-          className="w-10 h-10 absolute top-[1rem] right-[2rem]"
+          className="w-10 h-10 absolute top-[4rem] right-[2rem]"
         >
           <path
             strokeLinecap="round"
