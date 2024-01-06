@@ -97,7 +97,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        <div className="flex mt-[12rem]">
+        <div className="flex mt-[12rem] mb-[6rem]">
           <div>
             <TextBlocks title={"General Events: "} />
             <div className="flex flex-col lg:flex-row">
