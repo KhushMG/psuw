@@ -19,7 +19,7 @@ const NavBar = () => {
                       alt="Logo"
                       width={75}
                       height={50}
-                      className="rounded-full "
+                      className="rounded-full"
                     />
                   </div>
                 </Link>

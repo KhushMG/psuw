@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import logo from "./logo.png";
 import TextBlocks from "./components/TextBlocks";
