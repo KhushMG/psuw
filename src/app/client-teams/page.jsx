@@ -1,5 +1,4 @@
 "use client";
-import TextBlocks from "../components/TextBlocks";
 import Image from "next/image";
 import refer_me_logo from "../assets/referme_logo.png"
 

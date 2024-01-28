@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import logo from "./logo.png";
 import TextBlocks from "./components/TextBlocks";
@@ -6,20 +7,20 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       <div className="absolute mt-5 mb-2 flex items-center justify-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-purple-700 before:dark:opacity-10 after:dark:from-purple-900 after:dark:via-magenta after:dark:opacity-100 before:lg:h-[360px] z-[-1]">
-        <div className="flex items-center justify-center mt-20 lg:mt-24 px-2">
+        <div className="flex items-center justify-center mt-20 lg:mt-22 px-2">
           <Image
             src={logo}
             alt="Logo"
             width={100}
             height={50}
-            className="m-5 rounded-full"
+            className="m-3 rounded-full"
           />
           <h1 className="flex items-center justify-center text-3xl font-bold">
             ProductSphere @ <br></br> the University of Washington
           </h1>
         </div>
       </div>
-      <div className="items-center px-6 mt-[17rem]">
+      <div className="items-center px-6 mt-[18rem]">
         <div>
           {" "}
           <p className="font-semibold text-xl lg:text-4xl text-left mb-2">
@@ -97,7 +98,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        <div className="flex mt-[12rem]">
+        <div className="flex mt-[12rem] mb-[6rem]">
           <div>
             <TextBlocks title={"General Events: "} />
             <div className="flex flex-col lg:flex-row">
