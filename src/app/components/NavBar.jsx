@@ -10,7 +10,7 @@ const NavBar = () => {
         <div className="flex flex-col w-full h-20 bg-black-600 top-0 mt-4">
           <div className="mx-auto px-4 h-full">
             <div className="hidden md:flex mt-8 justify-center items-center h-full">
-              <ul className="flex flex-column space-x-5 text-white font-semibold text-5xl gap-x-8">
+              <ul className="flex flex-column space-x-5 text-white font-semibold text-4xl gap-x-8">
                 <li className="mt-4">
                   <Link href="/">
                     {" "}

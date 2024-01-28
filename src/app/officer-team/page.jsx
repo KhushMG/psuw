@@ -15,15 +15,15 @@ export default function About() {
       <div>
         <div className="flex flex-col items-center justify-center">
           <div>
-            <h1 className="flex flex-col items-center justify-center font-bold mt-20 mb-3 text-4xl lg:text-5xl lg:mt-[7rem]">
+            <h1 className="flex flex-col items-center justify-center font-bold mt-20 mb-3 text-4xl lg:text-4xl lg:mt-[7rem]">
               {"ProductSphere@UW"}
             </h1>
-            <h2 className="flex flex-col items-center justify-center font-bold text-3xl lg:text-4xl">
+            <h2 className="flex flex-col items-center justify-center font-bold text-3xl ">
               {"Meet the Team!"}
             </h2>
           </div>
           {/* Officer Cards. Props: Officer image, officer name. Reference OfficerCard.jsx for styling */}
-          <div className="gridcont flex flex-col mt-10">
+          <div className="gridcont flex flex-col mt-10 max-w-[60vw]">
             <OfficerCard image={team1} name={"Marie Kang"} />
 
             {/* Not using OfficerCard as special adjustments needed for this card. */}

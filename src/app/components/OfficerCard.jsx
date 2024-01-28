@@ -5,7 +5,7 @@ import Image from "next/image";
 // props: Officer photo, officer name 
 const OfficerCard = (props) => {
     return (
-      <div className="grid-item bg-purple-300/70 rounded-md p-[1rem]">
+      <div className="grid-item bg-purple-300/70 rounded-md p-[1rem] max-w-[25rem] ">
         {/* <div className="hover:opacity-0 transition duration-150 ease-in-out"> */}
         <div className="image-border flex justify-center p-[2rem] border-[0.3rem] border-white rounded-md">
           <Image
